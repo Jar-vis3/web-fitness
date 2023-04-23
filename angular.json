@@ -8,7 +8,7 @@
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "wf",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -107,6 +107,7 @@
   "cli": {
     "schematicCollections": [
       "@angular-eslint/schematics"
-    ]
+    ],
+    "analytics": false
   }
 }
